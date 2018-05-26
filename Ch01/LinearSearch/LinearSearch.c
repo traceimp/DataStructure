@@ -25,7 +25,7 @@ int main(void)
 		printf("타겟 저장 인덱스: %d \n", idx);
 
 	idx = LSearch(arr, sizeof(arr) / sizeof(int), 7);
-	if(idx == -1)
+	if (idx == -1)
 		printf("탐색 실패\n");
 	else
 		printf("타겟 저장 인덱스: %d \n", idx);
